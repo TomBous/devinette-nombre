@@ -14,3 +14,14 @@ h1 {
 .hidden {
     display: none;
 }
+
+span {
+    font-size: 2em;
+}
+
+.correct {
+    color: green;
+}
+.false {
+    color: indianred;
+}
