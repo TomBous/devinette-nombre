@@ -11,8 +11,17 @@ h1 {
     text-align: center;
 }
 
-.hidden {
-    display: none;
+.container > div {
+    opacity: 0%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    transition: opacity 1.5s;
+}
+
+
+.visible {
+    opacity: 100%!important;
 }
 
 span {
